@@ -57,7 +57,7 @@ This project was developed with:
 
   - sans-serif 400, 500, 600
 
-## 📖 New concepts I have mastered and applied
+## 📖 New Concepts Mastered and Applied
 
   - Use of react-router-dom: BrowserRouter, HashRouter, Routes, Route, Navigate, NavLink
   - Hooks: useState, useEffect, useParams, useNavigate
