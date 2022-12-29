@@ -28,7 +28,7 @@ export const Inicio = () => {
   }
 
   ////////////////////////////////////////////////////////////////////////////
-  if (numPagina <= 2) {
+  if (numPagina >= 1 && numPagina <= 2 ) {
     return (
       <>
         <div className='caja'>
