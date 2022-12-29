@@ -10,7 +10,7 @@ export const MisRutas = () => {
 
         {/* HEADER Y NAVEGACION */}
         <header className='header'>
-          <h3><i class="fa-solid fa-paperclip"></i> Lista de usuarios</h3>
+          <h3><i className="fa-solid fa-paperclip"></i> Lista de usuarios</h3>
         </header>
 
         {/* CUERPO */}
@@ -18,7 +18,7 @@ export const MisRutas = () => {
         <Routes>
           <Route path='/' element={<Navigate to='/inicio/1'/>}/>
           <Route path='/inicio' element={<Navigate to='/inicio/1'/>}/>
-          <Route path='/inicio/:pagina' element={<Inicio/>}/>
+          <Route path='/inicio/:numPagina' element={<Inicio/>}/>
 
           <Route path='*' element={<Error404/>}/>
         </Routes>

@@ -8,30 +8,27 @@ import { Error404 } from './Error404'
 export const Inicio = () => {
 
   const [usuarios, setUsuarios] = useState([])
-
+  //////////////////////////////////////
   useEffect(()=>{
     traerUsuariosAjaxAW()
-
-  }, [usuarios])
+  })
+  //////////////////////////////////////
+  const {numPagina} = useParams()
   
-  const {pagina = 1} = useParams()
-
   ///////////////////////////////////////////////////////////////////////////
   const traerUsuariosAjaxAW = async ()=>{
     try {
-      const peticion = await fetch(`https://reqres.in/api/users?page=${pagina}`)
+      const peticion = await fetch(`https://reqres.in/api/users?page=${numPagina}`)
       const {data} = await peticion.json()
       
       setUsuarios(data)
-
     } catch (error) {
       console.log(error);
     }
-
   }
 
   ////////////////////////////////////////////////////////////////////////////
-  if (pagina <= 2) {
+  if (numPagina <= 2) {
     return (
       <>
         <div className='caja'>
