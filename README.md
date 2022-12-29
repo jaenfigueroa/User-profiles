@@ -19,8 +19,8 @@ In this project I have created a website using react, consuming the public api r
 
 - ### Desktop preview
 
-<img src="./assets/readme/preview3.png" style="width: 100%"  />
-<img src="./assets/readme/preview4.png" style="width: 100%"  />
+<img src="./assets/readme/preview.gif" style="width: 100%"  />
+<!-- <img src="./assets/readme/preview4.png" style="width: 100%"  /> -->
 
 <!-- - ### Mobile preview
 
