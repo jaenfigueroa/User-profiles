@@ -1,6 +1,6 @@
 .caja{
-  width: 300px;
-  height: 300px;
+  width: 30rem;
+  height: 30rem;
   padding: 3rem 2rem 5rem;
   width: 100%;
   display: flex;
@@ -16,8 +16,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  max-width: 1080px;
-  max-width: 1140px;
+  max-width: 108rem;
+  max-width: 114rem;
 }
 
 .nav-pages{
@@ -36,13 +36,13 @@
   transition: all 300ms;
   text-decoration: none;
   color: black;
-  border: 2px solid #add8e6;
+  border: 0.2rem solid #add8e6;
   background: transparent;
 }
 .activo{
   background-color: lightblue;
   cursor: not-allowed;
-  border: 2px solid transparent;
+  border: 0.2rem solid transparent;
 }
 
 @media (min-width: 550px) {

@@ -1,8 +1,8 @@
 .caja__usuario{
   background-color: lightblue;
   padding: 3rem 2rem 4rem;
-  min-width: 315px;
-  max-width: 315px;
+  min-width: 31.5rem;
+  max-width: 31.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,13 +13,13 @@
 }
 .caja__usuario:hover{
   background-color: rgb(129, 182, 199);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.2);
 }
 
 .usuario__foto{
   background: gray;
-  width: 250px;
-  height: 250px;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
 }
 
@@ -44,8 +44,8 @@
 
 @media (min-width: 450px) {
   .caja__usuario{
-    min-width: 360px;
-    max-width: 360px;
+    min-width: 36rem;
+    max-width: 36rem;
   }
   .caja__usuario:hover{
     transform: scale(1.05);
@@ -54,5 +54,5 @@
 
 hr{
   border: none;
-  border-top: 1px solid white;
+  border-top: 0.1rem solid white;
 }
