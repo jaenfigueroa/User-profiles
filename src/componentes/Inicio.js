@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import './Inicio.css'
 import { Usuario } from './Usuario'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useParams } from 'react-router-dom'
 
 ///////////////////////////////////////////////////////////////////////////
 export const Inicio = () => {
@@ -10,12 +10,15 @@ export const Inicio = () => {
 
   useEffect(()=>{
     traerUsuariosAjaxAW()
-  }, [])
+
+  }, [usuarios])
+  
+  const {pagina = 1} = useParams()
 
   ///////////////////////////////////////////////////////////////////////////
   const traerUsuariosAjaxAW = async ()=>{
     try {
-      const peticion = await fetch('https://reqres.in/api/users?page=1')
+      const peticion = await fetch(`https://reqres.in/api/users?page=${pagina}`)
       const {data} = await peticion.json()
       
       setUsuarios(data)
@@ -37,11 +40,14 @@ export const Inicio = () => {
         </ul>
       </div>
 
-      <NavLink className='nav-pages'>
-          <button>Anterior</button>
-          <button>Siguiente</button>
-      </NavLink>
-
+      <nav className='nav-pages'>
+        <NavLink to='/inicio/1' className={({isActive})=>isActive?'activo':'noActivo'}>
+          Anterior
+        </NavLink>
+        <NavLink to='/inicio/2' className={({isActive})=>isActive?'activo':'noActivo'}>
+          Siguiente
+        </NavLink>
+      </nav>
     </>
   )
 }
