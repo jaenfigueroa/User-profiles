@@ -29,7 +29,7 @@ In this project I have created a website using react, consuming the public api r
 
 This project was developed with:
 
-### Languages
+### 1. Languages
   - HTLM5
   - CSS3
   - JavaScript
@@ -42,23 +42,23 @@ This project was developed with:
 
 </div>
 
-### Frameworks
+### 2. Frameworks
 
   - React v18.2
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="75px" height="70px" />
 
-### APIs
+### 3. APIs
 
   - REQRES: https://reqres.in/
 
-## Colors 🎨
+## 🎨 Colors 
 
   - Gray: #778899
   - blue: #81b6c7
   - lightblue: #add8e6
 
-## Fonts
+## 🔠 Fonts
 
   - sans-serif 400, 500, 600
 
