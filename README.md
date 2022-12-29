@@ -40,6 +40,6 @@ This project was developed with the following languages and frameworks:
 
 ## 🌍 Website
 
-You can try my final result [here](user-profiles-api.netlify.app/s).
+You can try my final result [here](https://user-profiles-api.netlify.app/).
 
 <img src="https://octodex.github.com/images/welcometocat.png" style="width: 25%">
