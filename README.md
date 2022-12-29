@@ -62,7 +62,4 @@ In this project, I have created a website using React and consuming the REQRES p
   
 ## 🌍 Deployment on netlify and Website
 
-You can try my final result <a href="https://user-profiles-api.netlify.app/" target="_blank">here</a>
-
-[Google](https://www.google.com){:target="_blank"}
-[Google](https://www.google.com){target="_blank"}
+You can try my final result [here](https://user-profiles-api.netlify.app/).
