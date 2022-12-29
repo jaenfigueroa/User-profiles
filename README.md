@@ -1,7 +1,7 @@
 
 <div align="center" >
 
-# User Profiles
+# User Profiles App
 
 </div>
 
