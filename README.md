@@ -68,4 +68,4 @@ You can try my final result [here](https://user-profiles-api.netlify.app/){:targ
 [Google](https://www.google.com){:target="_blank"}
 
 
-<img src="https://user-profiles-api.netlify.app/" style="width: 25%">
+<img src="https://user-profiles-api.netlify.app/" value="here">
