@@ -9,7 +9,7 @@ export const MisRutas = () => {
       <BrowserRouter>
 
         {/* HEADER Y NAVEGACION */}
-        <h2 className='titulo'>Lista de usuarios</h2>
+        <header className='header'>Lista de usuarios</header>
 
         {/* CUERPO */}
         <main className='main'>
@@ -23,7 +23,9 @@ export const MisRutas = () => {
         </main>
 
         {/* FOOTER */}
-
+        <footer className='footer'>
+          Developed by <a href='https://www.jaenfigueroa.com'>Jaen Figueroa</a> &copy; 2022
+        </footer>
 
       </BrowserRouter>
     </div>

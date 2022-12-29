@@ -10,16 +10,6 @@
   height: max-content;
 }
 
-.titulo{
-  font-size: 3.5rem;
-  /* text-decoration: underline; */
-  text-align: center;
-  background: lightslategray;
-  width: 100%;
-  padding: 3rem 1rem;
-  color: white;
-}
-
 .contenedor-lista{
   display: flex;
   gap: 3rem;
@@ -31,24 +21,32 @@
 }
 
 .nav-pages{
-  padding: 4rem 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: #778899;
 }
 
 .activo,
 .noActivo{
   background-color: rgb(255, 255, 255);
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   border: none;
   border-radius: .5rem;
   transition: all 300ms;
   text-decoration: none;
   color: black;
+  border: 2px solid #add8e6;
+  background: transparent;
 }
 .activo{
   background-color: lightblue;
+  cursor: not-allowed;
+  border: 2px solid transparent;
+}
+
+@media (min-width: 550px) {
+  .nav-pages{
+    padding: 4rem 2rem;
+  }
 }

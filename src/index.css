@@ -36,6 +36,30 @@ ol {
   justify-content: space-between;
   min-height: 100vh;
 }
+
+.header{
+  font-size: 3.5rem;
+  text-align: center;
+  background: lightslategray;
+  width: 100%;
+  padding: 3rem 1rem;
+  color: white;
+  margin-bottom: 2rem;
+}
 .main{
   flex-grow: 1;
+}
+.footer{
+  background-color: lightblue;
+  padding: 5rem 0;
+  text-align: center;
+  margin-top: 4rem;
+}
+.footer a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.footer a:hover{
+  text-decoration: underline;
 }
