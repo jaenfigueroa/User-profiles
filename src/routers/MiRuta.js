@@ -1,12 +1,12 @@
 import React from 'react'
-import {Routes, Route, BrowserRouter, Navigate} from 'react-router-dom'
+import {Routes, Route, HashRouter, Navigate} from 'react-router-dom'
 import { Inicio } from '../componentes/Inicio'
 import { Error404 } from '../componentes/Error404'
 
 export const MisRutas = () => {
   return (
     <div className='layout'>
-      <BrowserRouter>
+      <HashRouter>
 
         {/* HEADER Y NAVEGACION */}
         <header className='header'>
@@ -29,7 +29,7 @@ export const MisRutas = () => {
           Developed by <a href='https://www.jaenfigueroa.com'>Jaen Figueroa</a> &copy; 2022
         </footer>
 
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
