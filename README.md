@@ -1,7 +1,7 @@
 
 <div align="center" >
 
-## User profiles api
+# User Profiles Api
 
 </div>
 
