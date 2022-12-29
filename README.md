@@ -15,7 +15,7 @@
 
 ## 💡 Brief
 
-In this project I have created a website using react, consuming the public api reqres.
+In this project, I have created a website using React and consuming the REQRES public API. I have used various techniques and concepts to make the user experience enjoyable and efficient, such as the use of routing in React and different hooks to handle state and effects in the application. I have also carefully selected a color palette and typography to give the site a professional and attractive look.
 
 - ### Desktop preview
 
