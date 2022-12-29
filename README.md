@@ -15,7 +15,7 @@
 
 ## 💡 Brief
 
-In this project I have created a website using react, consuming the public api req res
+In this project I have created a website using react, consuming the public api reqres.
 
 - ### Desktop preview
 
@@ -23,7 +23,7 @@ In this project I have created a website using react, consuming the public api r
 
 - ### Mobile preview
 
-<img src="./assets/readme/mobile.gif" style="width: 80%"  />
+<img src="./assets/readme/mobile.gif" style="width: 70%"  />
 
 ## 🚀 Project finished
 
