@@ -27,16 +27,30 @@ In this project I have created a website using react, consuming the public api r
 
 ## 🚀 Project finished
 
-This project was developed with the following languages and frameworks:
-      
-<div align="left" >
+This project was developed with:
+
+- Languages
+  - HTLM5
+  - CSS3
+  - JavaScript
+
+<div align="left">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="70px" height="70px" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="70px" height="70px" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="65px" height="65px" />&nbsp;&nbsp;
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="75px" height="70px" />
 
 </div>
+
+- Frameworks
+
+  - React v18.2
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="75px" height="70px" />
+
+- APIs
+
+  - REQRES: https://reqres.in/
 
 ## 🌍 Website
 
