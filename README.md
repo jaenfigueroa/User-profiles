@@ -60,7 +60,7 @@ This project was developed with:
 ## 📖 New concepts I have mastered and applied
 
   - Use of react-router-dom: BrowserRouter, HashRouter, Routes, Route, Navigate, NavLink
-  - Hooks: useState, useEffect, useParams
+  - Hooks: useState, useEffect, useParams, useNavigate
   
 ## 🌍 Website
 
