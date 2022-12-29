@@ -64,4 +64,7 @@ In this project, I have created a website using React and consuming the REQRES p
 
 You can try my final result [here](https://user-profiles-api.netlify.app/){:target="_blank"}.
 
+
+[Google](https://www.google.com){:target="_blank"}
+
 <img src="https://octodex.github.com/images/welcometocat.png" style="width: 25%">
