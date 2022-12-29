@@ -62,7 +62,7 @@ This project was developed with:
   - Use of react-router-dom: BrowserRouter, HashRouter, Routes, Route, Navigate, NavLink
   - Hooks: useState, useEffect, useParams, useNavigate
   
-## 🌍 Website
+## 🌍 Deployment on netlify and Website
 
 You can try my final result [here](https://user-profiles-api.netlify.app/).
 
