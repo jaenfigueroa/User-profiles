@@ -25,9 +25,7 @@ In this project I have created a website using react, consuming the public api r
 
 <img src="./assets/readme/mobile.gif" style="width: 70%"  />
 
-## 🚀 Project Finished
-
-This project was developed with:
+## 🚀 Project was developed with
 
 ### 1. Languages
 
