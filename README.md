@@ -57,6 +57,11 @@ This project was developed with:
 
   - sans-serif 400, 500, 600
 
+## 📖 New concepts I have mastered and applied
+
+  - Use of react-router-dom: BrowserRouter, HashRouter, Routes, Route, Navigate, NavLink
+  - Hooks: useState, useEffect, useParams
+  
 ## 🌍 Website
 
 You can try my final result [here](https://user-profiles-api.netlify.app/).
