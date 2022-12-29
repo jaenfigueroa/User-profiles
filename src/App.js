@@ -1,10 +1,10 @@
 import './App.css';
-import { AJaxComponente } from './componentes/AJaxComponente';
+import { MisRutas } from './routers/MiRuta';
 
 function App() {
   return (
     <div className="App">
-      <AJaxComponente/>
+      <MisRutas/>
     </div>
   );
 }
