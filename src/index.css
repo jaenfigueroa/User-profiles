@@ -38,14 +38,23 @@ ol {
 }
 
 .header{
-  font-size: 3.5rem;
   text-align: center;
   background: lightslategray;
-  width: 100%;
   padding: 3rem 1rem;
-  color: white;
   margin-bottom: 2rem;
 }
+
+.header h3{
+  font-size: 3.5rem;
+  width: 100%;
+  color: white;
+}
+
+.header i{
+  color: white;
+  font-size: 3.5rem;
+}
+
 .main{
   flex-grow: 1;
 }

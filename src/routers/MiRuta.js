@@ -9,7 +9,9 @@ export const MisRutas = () => {
       <BrowserRouter>
 
         {/* HEADER Y NAVEGACION */}
-        <header className='header'>Lista de usuarios</header>
+        <header className='header'>
+          <h3><i class="fa-solid fa-paperclip"></i> Lista de usuarios</h3>
+        </header>
 
         {/* CUERPO */}
         <main className='main'>
