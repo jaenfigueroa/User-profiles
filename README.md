@@ -37,7 +37,7 @@ In this project, I have created a website using React and consuming the REQRES p
 
 </div>
 
-### 2. Frameworks
+### 2. Library
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="75px" height="70px" />
 
